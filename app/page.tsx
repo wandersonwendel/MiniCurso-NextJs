@@ -1,7 +1,7 @@
-const nome = "Wanderson";
-let canal = "CFBCursos";
-
 export default function Home() {
+  const nome = "Wanderson";
+  let canal = "CFBCursos";
+
   function retName() {
     return nome;
   }
