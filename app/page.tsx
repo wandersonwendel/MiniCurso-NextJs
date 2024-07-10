@@ -2,11 +2,15 @@ const nome = "Wanderson";
 let canal = "CFBCursos";
 
 export default function Home() {
+  function retName() {
+    return nome;
+  }
+
   return (
     <main className="flex min-h-screen flex-col justify-center items-center">
       <div>
         {/* Utilizando o Js dentro do HTML, para acessar variáveis */}
-        <div>{nome}</div>
+        <div>{retName()}</div>
         <div>{canal}</div>
 
         <div>Minicurso de Next.js</div>
