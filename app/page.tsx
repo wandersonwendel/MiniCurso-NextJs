@@ -1,11 +1,11 @@
+const nome = "Wanderson";
+let canal = "CFBCursos";
+
 function retName() {
   return nome;
 }
 
 export default function Home() {
-  const nome = "Wanderson";
-  let canal = "CFBCursos";
-
   return (
     <main className="flex min-h-screen flex-col justify-center items-center">
       <div>
